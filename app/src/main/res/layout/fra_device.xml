@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:textSize="20sp" />
+
+    <!--圆形空间srcProgressingBar-->
+    <com.ldoublem.ringPregressLibrary.RingProgress
+        android:id="@+id/lv_ringp"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        app:bgColor="#707070"
+        app:ringWidthScale="0.2"
+        app:rotate="270"
+        app:showBackground="true"
+        app:showBackgroundShadow="true"
+        app:showRingCorner="true"
+        app:ringSweepAngle="200"
+        ></com.ldoublem.ringPregressLibrary.RingProgress>
+</LinearLayout>

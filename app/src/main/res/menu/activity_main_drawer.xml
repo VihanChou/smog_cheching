@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_safe_number"
+            android:icon="@drawable/ic_menu_safephone"
+            android:title="安全号码" />
+        <item
+            android:id="@+id/nav_recording"
+            android:icon="@drawable/ic_menu_recorder"
+            android:title="报警记录" />
+        <item
+            android:id="@+id/nav_helper"
+            android:icon="@drawable/ic_menu_helper"
+            android:title="安全助手" />
+        <item
+            android:id="@+id/nav_myd_evice"
+            android:icon="@drawable/ic_menu_device"
+            android:title="设备查看" />
+    </group>
+
+    <item android:title="应用相关">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="用户注销" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_appinfo"
+                android:title="应用信息" />
+        </menu>
+    </item>
+
+</menu>
